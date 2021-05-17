@@ -16,6 +16,7 @@
   height: 44px;
   border-radius: 50%;
   transition: 250ms background-color cubic-bezier(0.4, 0, 0.2, 1);
+
   &:hover,
   &:focus {
     background-color: var(--accent);

@@ -26,6 +26,7 @@
 
 .page-header__menu-item {
   margin-right: 50px;
+
   &:last-child {
     margin-right: 0;
   }
@@ -39,6 +40,7 @@
 
 .page-header__contacts-item {
   margin-right: 30px;
+
   &:last-child {
     margin-right: 0;
   }
@@ -51,6 +53,7 @@
   letter-spacing: 0.02em;
   color: inherit;
   transition: 250ms color cubic-bezier(0.4, 0, 0.2, 1);
+
   &:hover,
   &:focus {
     color: var(--accent);

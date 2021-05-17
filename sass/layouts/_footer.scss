@@ -22,6 +22,7 @@
 .footer__map {
   color: var(--alt-title);
   transition: 250ms color cubic-bezier(0.4, 0, 0.2, 1);
+
   &:hover,
   &:focus {
     color: var(--accent);
@@ -31,6 +32,7 @@
 .footer__link {
   color: inherit;
   transition: 250ms color cubic-bezier(0.4, 0, 0.2, 1);
+
   &:hover,
   &:focus {
     color: var(--accent);
@@ -67,6 +69,7 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background: transparent;
+
   &:hover,
   &:focus {
     @extend %border-accent;

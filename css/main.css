@@ -747,7 +747,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  fill: inherit;
+  fill: currentColor;
 }
 
 .footer {

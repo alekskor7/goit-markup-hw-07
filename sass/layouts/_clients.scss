@@ -13,6 +13,7 @@
   fill: var(--social-icons);
   transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1),
     250ms border-color cubic-bezier(0.4, 0, 0.2, 1);
+
   &:hover,
   &:focus {
     fill: var(--accent);
@@ -25,5 +26,5 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  fill: inherit;
+  fill: currentColor;
 }
