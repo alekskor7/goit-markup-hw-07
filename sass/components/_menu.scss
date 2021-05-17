@@ -1,0 +1,38 @@
+.menu {
+  display: flex;
+}
+
+.menu__link {
+  color: var(--title-color);
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  position: relative;
+  transition: 250ms color cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent);
+    &::after {
+      opacity: 1;
+    }
+  }
+}
+
+.menu__link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  bottom: -32px;
+  background-color: var(--accent);
+  opacity: 0;
+  position: absolute;
+  transition: 250ms opacity cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu__link--current {
+  color: var(--accent);
+  &::after {
+    opacity: 1;
+  }
+}

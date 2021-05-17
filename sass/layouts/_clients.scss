@@ -1,0 +1,29 @@
+.client__item {
+  flex-basis: calc((100% - 6 * 30px) / 6);
+}
+
+.clients__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--social-icons);
+  border-radius: 4px;
+  fill: var(--social-icons);
+  transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1),
+    250ms border-color cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    fill: var(--accent);
+    border-color: var(--accent);
+    outline: none;
+  }
+}
+
+.clients__svg {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  fill: inherit;
+}
